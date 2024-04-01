@@ -2,6 +2,7 @@ const {Client, Intents, MessageEmbed} = require("discord.js");
 const dotenv = require("dotenv");
 const util = require("util");
 const fs = require("fs");
+const keep_alive = require('./keep_alive.js');
 
 //init dotenv
 dotenv.config();
